@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1.0,
+    "topic": "Privileges",
+    "placeholder": "sudo -s",
+    "solution": "sudo -s",
+    "question": "open a root shell",
+    "level": 1.0
+  },
+  {
+    "id": 2.0,
+    "topic": "Privileges",
+    "placeholder": "sudo -s -u user",
+    "solution": "sudo -s -u user",
+    "question": "open a shell as user",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Privileges",
+    "placeholder": "sudo -k",
+    "solution": "sudo -k",
+    "question": "forget sudo passwords",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Privileges",
+    "placeholder": "sudo visudo",
+    "solution": "sudo visudo",
+    "question": "edit /etc/sudoers",
+    "level": 1.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Package management",
+    "placeholder": "apt-get update",
+    "solution": "apt-get update",
+    "question": "refresh available updates",
+    "level": 2.0
+  },
+  {
+    "id": 6.0,
+    "topic": "Package management",
+    "placeholder": "apt-get upgrade",
+    "solution": "apt-get upgrade",
+    "question": "upgrade all packages",
+    "level": 2.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Package management",
+    "placeholder": "apt-get dist-upgrade",
+    "solution": "apt-get dist-upgrade",
+    "question": "upgrade Ubuntu version",
+    "level": 2.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Package management",
+    "placeholder": "apt-get install pkg",
+    "solution": "apt-get install pkg",
+    "question": "install pkg",
+    "level": 2.0
+  },
+  {
+    "id": 9.0,
+    "topic": "Package management",
+    "placeholder": "apt-get purge pkg",
+    "solution": "apt-get purge pkg",
+    "question": "uninstall pkg",
+    "level": 2.0
+  },
+  {
+    "id": 10.0,
+    "topic": "Package management",
+    "placeholder": "apt-get autoremove",
+    "solution": "apt-get autoremove",
+    "question": "remove obsolete packages",
+    "level": 2.0
+  },
+  {
+    "id": 11.0,
+    "topic": "Package management",
+    "placeholder": "apt-get -f install",
+    "solution": "apt-get -f install",
+    "question": "try to fix broken packages",
+    "level": 2.0
+  },
+  {
+    "id": 12.0,
+    "topic": "Package management",
+    "placeholder": "dpkg --configure -a",
+    "solution": "dpkg --configure -a",
+    "question": "try to fix broken packages",
+    "level": 2.0
+  },
+  {
+    "id": 13.0,
+    "topic": "Package management",
+    "placeholder": "dpkg -i pkg.deb",
+    "solution": "dpkg -i pkg.deb",
+    "question": "install file pkg.deb",
+    "level": 2.0
+  },
+  {
+    "id": 14.0,
+    "topic": "System services",
+    "placeholder": "/etc/init.d/service start",
+    "solution": "/etc/init.d/service start",
+    "question": "start service (SysV)",
+    "level": 3.0
+  },
+  {
+    "id": 15.0,
+    "topic": "System services",
+    "placeholder": "/etc/init.d/service stop",
+    "solution": "/etc/init.d/service stop",
+    "question": "stop service (SysV)",
+    "level": 3.0
+  },
+  {
+    "id": 16.0,
+    "topic": "System services",
+    "placeholder": "/etc/init.d/service status",
+    "solution": "/etc/init.d/service status",
+    "question": "check service(SysV)",
+    "level": 3.0
+  },
+  {
+    "id": 17.0,
+    "topic": "System services",
+    "placeholder": "/etc/init.d/service restart",
+    "solution": "/etc/init.d/service restart",
+    "question": "restart service(SysV)",
+    "level": 3.0
+  },
+  {
+    "id": 18.0,
+    "topic": "Network",
+    "placeholder": "ifconfig",
+    "solution": "ifconfig",
+    "question": "show network information",
+    "level": 4.0
+  },
+  {
+    "id": 19.0,
+    "topic": "Network",
+    "placeholder": "iwconfig",
+    "solution": "iwconfig",
+    "question": "show wireless information",
+    "level": 4.0
+  },
+  {
+    "id": 20.0,
+    "topic": "Network",
+    "placeholder": "sudo iwlist scan",
+    "solution": "sudo iwlist scan",
+    "question": "scan for wireless network",
+    "level": 4.0
+  },
+  {
+    "id": 21.0,
+    "topic": "Network",
+    "placeholder": "sudo /etc/init.d/networking restart",
+    "solution": "sudo /etc/init.d/networking restart",
+    "question": "reset network for manual configurations",
+    "level": 4.0
+  },
+  {
+    "id": 22.0,
+    "topic": "Network",
+    "placeholder": "(file) /etc/network/interfaces",
+    "solution": "(file) /etc/network/interfaces",
+    "question": "manual configuration ",
+    "level": 4.0
+  },
+  {
+    "id": 23.0,
+    "topic": "Network",
+    "placeholder": "ifup interface",
+    "solution": "ifup interface",
+    "question": "bring interface online",
+    "level": 4.0
+  },
+  {
+    "id": 24.0,
+    "topic": "Firewall",
+    "placeholder": "ufw enable",
+    "solution": "ufw enable",
+    "question": "turn on the firewall",
+    "level": 5.0
+  },
+  {
+    "id": 25.0,
+    "topic": "Firewall",
+    "placeholder": "ufw disable",
+    "solution": "ufw disable",
+    "question": "turn off the firewall",
+    "level": 5.0
+  },
+  {
+    "id": 26.0,
+    "topic": "Firewall",
+    "placeholder": "ufw default allow",
+    "solution": "ufw default allow",
+    "question": "allow all connections bydefault",
+    "level": 5.0
+  },
+  {
+    "id": 27.0,
+    "topic": "Firewall",
+    "placeholder": "ufw default deny",
+    "solution": "ufw default deny",
+    "question": "drop all connections bydefault",
+    "level": 5.0
+  },
+  {
+    "id": 28.0,
+    "topic": "Firewall",
+    "placeholder": "ufw status",
+    "solution": "ufw status",
+    "question": "current status and rules",
+    "level": 5.0
+  },
+  {
+    "id": 29.0,
+    "topic": "Firewall",
+    "placeholder": "ufw allow port",
+    "solution": "ufw allow port",
+    "question": "allow traffic on port",
+    "level": 5.0
+  },
+  {
+    "id": 30.0,
+    "topic": "Firewall",
+    "placeholder": "ufw deny port",
+    "solution": "ufw deny port",
+    "question": "block port",
+    "level": 5.0
+  },
+  {
+    "id": 31.0,
+    "topic": "System",
+    "placeholder": "lsb_release -a",
+    "solution": "lsb_release -a",
+    "question": "get Ubuntu version",
+    "level": 6.0
+  },
+  {
+    "id": 32.0,
+    "topic": "System",
+    "placeholder": "uname -r",
+    "solution": "uname -r",
+    "question": "get kernel version",
+    "level": 6.0
+  },
+  {
+    "id": 0.0,
+    "topic": "Privileges",
+    "placeholder": "sudo command",
+    "solution": "sudo command",
+    "question": "run command as root",
+    "level": 1.0
+  }
+]

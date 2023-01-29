@@ -1,0 +1,90 @@
+[
+  {
+    "question": "Login",
+    "solution": "az login"
+  },
+  {
+    "question": "Change Active Subscription",
+    "solution": "az account set --subscription"
+  },
+  {
+    "question": "Setup Default Value Resource Group and Location",
+    "solution": "az configure --defaults group= location="
+  },
+  {
+    "question": "Subscription List",
+    "solution": "az account list"
+  },
+  {
+    "question": "Create Virtual Machine",
+    "solution": "az vm create -g -n --image --admin-username --admin-password"
+  },
+  {
+    "question": "VM Open Port",
+    "solution": "az vm open-port --port -g -n"
+  },
+  {
+    "question": "VM Public IP Address",
+    "solution": "az vm show -n -g --show-details --query [publicIPs] --output"
+  },
+  {
+    "question": "List All Web Apps from a Resource Group",
+    "solution": "az webapp list -g"
+  },
+  {
+    "question": "Create Resource Group",
+    "solution": "az group create -n -l"
+  },
+  {
+    "question": "Resource Group List",
+    "solution": "az group list"
+  },
+  {
+    "question": "Clean Up Resource Group By Name",
+    "solution": "az group delete -n --no-wait --yes"
+  },
+  {
+    "question": "Create Storage Account",
+    "solution": "az storage account create -g -n --kind -l --sku"
+  },
+  {
+    "question": "List Blobs",
+    "solution": "az storage blob list --account-name --container-name --output table"
+  },
+  {
+    "question": "Get Storage Account Connection String by Name",
+    "solution": "az storage account show-connection-string -n -g"
+  },
+  {
+    "question": "Create new Azure Container Registry",
+    "solution": "az acr create"
+  },
+  {
+    "question": "Create an Azure AD Role and assign users to role",
+    "solution": "az role definition create | az role assignment create"
+  },
+  {
+    "question": "Create identity for VM Scale Set, managed by the VM Scale Set",
+    "solution": "az vmss identity assign -g -n"
+  },
+  {
+    "question": "Create new Azure Key Vault access policy for secrets",
+    "solution": "az keyvault set-policy -n --object-id --secret-permissions"
+  },
+  {
+    "question": "Create a new Azure Key Vault",
+    "solution": "az keyvault create -n -g -l"
+  },
+  {
+    "question": "Review Events for Web Service",
+    "solution": "az monitor activity-log"
+  },
+  {
+    "question": "Create Event Hubs Namespace",
+    "solution": "az eventhubs namespace create -n -g -l"
+  },
+  {
+    "question": "Create a new API Managment API named 'xyz' with endpoint 'abc'",
+    "solution": "az apim api create --service-name xyz -g --path '/abc'"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1.0,
+    "topic": "Basic commands",
+    "placeholder": "ifconfig",
+    "solution": "ifconfig",
+    "question": "display interface information (MAC and IPv4 address)",
+    "level": 1.0
+  },
+  {
+    "id": 2.0,
+    "topic": "Basic commands",
+    "placeholder": "ip",
+    "solution": "ip",
+    "question": "alternative to ifconfig",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Basic commands",
+    "placeholder": "traceroute",
+    "solution": "traceroute",
+    "question": "tracing the route of IP packets",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Basic commands",
+    "placeholder": "ping",
+    "solution": "ping",
+    "question": "checks for the network connectivity",
+    "level": 1.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Basic commands",
+    "placeholder": "ss",
+    "solution": "ss",
+    "question": "information about TCP and UDP connections",
+    "level": 1.0
+  },
+  {
+    "id": 6.0,
+    "topic": "Basic commands",
+    "placeholder": "dig",
+    "solution": "dig",
+    "question": "query DNS",
+    "level": 1.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Basic commands",
+    "placeholder": "route -n",
+    "solution": "route -n",
+    "question": "display routing table",
+    "level": 1.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Basic commands",
+    "placeholder": "host",
+    "solution": "host",
+    "question": "display ip address of domain name",
+    "level": 1.0
+  },
+  {
+    "id": 9.0,
+    "topic": "Basic commands",
+    "placeholder": "iwconfig",
+    "solution": "iwconfig",
+    "question": "configure wireless network",
+    "level": 1.0
+  },
+  {
+    "id": 10.0,
+    "topic": "Basic commands",
+    "placeholder": "hostname",
+    "solution": "hostname",
+    "question": "set hostname of the system",
+    "level": 1.0
+  },
+  {
+    "id": 11.0,
+    "topic": "Basic commands",
+    "placeholder": "wget",
+    "solution": "wget",
+    "question": "download files from the internet",
+    "level": 1.0
+  },
+  {
+    "id": 12.0,
+    "topic": "Basic commands",
+    "placeholder": "mtr",
+    "solution": "mtr",
+    "question": "combination of ping and traceroute",
+    "level": 1.0
+  },
+  {
+    "id": 13.0,
+    "topic": "Basic commands",
+    "placeholder": "whois",
+    "solution": "whois",
+    "question": "fetch information about a website",
+    "level": 1.0
+  },
+  {
+    "id": 14.0,
+    "topic": "Basic commands",
+    "placeholder": "ifplugstatus",
+    "solution": "ifplugstatus",
+    "question": "check if cable is plugged into network interface",
+    "level": 1.0
+  },
+  {
+    "id": 15.0,
+    "topic": "Basic commands",
+    "placeholder": "tcpdump",
+    "solution": "tcpdump",
+    "question": "capture traffic and display it",
+    "level": 1.0
+  },
+  {
+    "id": 16.0,
+    "topic": "Basic commands",
+    "placeholder": "ifup eth0",
+    "solution": "ifup eth0",
+    "question": "Enable network interface eth0",
+    "level": 1.0
+  },
+  {
+    "id": 17.0,
+    "topic": "Basic commands",
+    "placeholder": "ifdown eth0",
+    "solution": "ifdown eth0",
+    "question": "Disable network interface eth0",
+    "level": 1.0
+  },
+  {
+    "id": 18.0,
+    "topic": "Basic commands",
+    "placeholder": "dhclient",
+    "solution": "dhclient",
+    "question": "DHCP client command (get new dynamic ip)",
+    "level": 1.0
+  },
+  {
+    "id": 19.0,
+    "topic": "Basic commands",
+    "placeholder": "telnet",
+    "solution": "telnet",
+    "question": "connect to computer (raw protocol)",
+    "level": 1.0
+  },
+  {
+    "id": 20.0,
+    "topic": "Basic commands",
+    "placeholder": "/etc/services",
+    "solution": "/etc/services",
+    "question": "tcp/udp service names to port numbers",
+    "level": 1.0
+  },
+  {
+    "id": 21.0,
+    "topic": "Wireless networks",
+    "placeholder": "lspci",
+    "solution": "lspci",
+    "question": "Find out your Linux wireless card chipset information",
+    "level": 2.0
+  },
+  {
+    "id": 22.0,
+    "topic": "Wireless networks",
+    "placeholder": "lshw -C network",
+    "solution": "lshw -C network",
+    "question": "Find out Linux wireless card driver information",
+    "level": 2.0
+  },
+  {
+    "id": 23.0,
+    "topic": "Wireless networks",
+    "placeholder": "ifdown interface",
+    "solution": "ifdown interface",
+    "question": "Turn of wireless networking for interface (wlan0)",
+    "level": 2.0
+  },
+  {
+    "id": 24.0,
+    "topic": "Wireless networks",
+    "placeholder": "ifconfig wlan0",
+    "solution": "ifconfig wlan0",
+    "question": "Configure network interface (wlan0)",
+    "level": 2.0
+  },
+  {
+    "id": 25.0,
+    "topic": "Wireless networks",
+    "placeholder": "nmcli con show",
+    "solution": "nmcli con show",
+    "question": "Show WiFi info",
+    "level": 2.0
+  },
+  {
+    "id": 26.0,
+    "topic": "Wireless networks",
+    "placeholder": "nmcli dev status",
+    "solution": "nmcli dev status",
+    "question": "Show active and inactive devices",
+    "level": 2.0
+  },
+  {
+    "id": 27.0,
+    "topic": "Tricks",
+    "placeholder": "ip -br -c link show",
+    "solution": "ip -br -c link show",
+    "question": "Show mac addresses and devices in colored table",
+    "level": 3.0
+  },
+  {
+    "id": 28.0,
+    "topic": "Tricks",
+    "placeholder": "ip -br -c addr show",
+    "solution": "ip -br -c addr show",
+    "question": "Show ip addresses and devices in colored table",
+    "level": 3.0
+  },
+  {
+    "id": 29.0,
+    "topic": "Tricks",
+    "placeholder": "cat /proc/net/dev",
+    "solution": "cat /proc/net/dev",
+    "question": "Show number of sent and received packets",
+    "level": 3.0
+  },
+  {
+    "id": 30.0,
+    "topic": "Tricks",
+    "placeholder": "bmon",
+    "solution": "bmon",
+    "question": "Monitor network interface use",
+    "level": 3.0
+  },
+  {
+    "id": 31.0,
+    "topic": "Tricks",
+    "placeholder": "nmtui",
+    "solution": "nmtui",
+    "question": "Configure network interface using TUI",
+    "level": 3.0
+  },
+  {
+    "id": 32.0,
+    "topic": "Monitoring",
+    "placeholder": "nload",
+    "solution": "nload",
+    "question": "Monitor network in/out in real time",
+    "level": 4.0
+  },
+  {
+    "id": 33.0,
+    "topic": "Monitoring",
+    "placeholder": "iftop",
+    "solution": "iftop",
+    "question": "Show remote hosts and bandwidth use",
+    "level": 4.0
+  },
+  {
+    "id": 34.0,
+    "topic": "Monitoring",
+    "placeholder": "netstat",
+    "solution": "netstat",
+    "question": "show network statistics",
+    "level": 4.0
+  },
+  {
+    "id": 35.0,
+    "topic": "Monitoring",
+    "placeholder": "iptraf",
+    "solution": "iptraf",
+    "question": "show remote traffic in TUI",
+    "level": 4.0
+  },
+  {
+    "id": 0.0,
+    "topic": "Basic commands",
+    "placeholder": "curl ifconfig.me",
+    "solution": "curl ifconfig.me",
+    "question": "get remote ip address",
+    "level": 1.0
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "placeholder": "date",
+    "solution": "date",
+    "question": "Show date and time"
+  },
+  {
+    "placeholder": "uptime",
+    "solution": "uptime",
+    "question": "Display system uptime"
+  },
+  {
+    "placeholder": "cal",
+    "solution": "cal",
+    "question": "Show calendar"
+  },
+  {
+    "placeholder": "w",
+    "solution": "w",
+    "question": "Display who is logged in"
+  },
+  {
+    "placeholder": "whoami",
+    "solution": "whoami",
+    "question": "Display effective username"
+  },
+  {
+    "placeholder": "finger user",
+    "solution": "finger user",
+    "question": "Show info about user"
+  },
+  {
+    "placeholder": "uname -a",
+    "solution": "uname -a",
+    "question": "Show kernel info"
+  },
+  {
+    "placeholder": "man cmd",
+    "solution": "man cmd",
+    "question": "Show man page for cmd"
+  },
+  {
+    "placeholder": "df",
+    "solution": "df",
+    "question": "Display free disk space"
+  },
+  {
+    "placeholder": "du",
+    "solution": "du",
+    "question": "Display disk usage stats"
+  },
+  {
+    "placeholder": "free",
+    "solution": "free",
+    "question": "Show memory and swap usage"
+  },
+  {
+    "placeholder": "whereis app",
+    "solution": "whereis app",
+    "question": "Show where app location is"
+  },
+  {
+    "placeholder": "ls -l",
+    "solution": "ls -l",
+    "question": "List current dir contents (long format)"
+  },
+  {
+    "placeholder": "ls",
+    "solution": "ls",
+    "question": "List current dir contents"
+  },
+  {
+    "placeholder": "ls -a",
+    "solution": "ls -a",
+    "question": "List current dir contents including hidden"
+  },
+  {
+    "placeholder": "ls -t",
+    "solution": "ls -t",
+    "question": "List current dir contents sorted by mod date"
+  },
+  {
+    "placeholder": "cd",
+    "solution": "cd",
+    "question": "Change to home dir"
+  },
+  {
+    "placeholder": "cd dir",
+    "solution": "cd dir",
+    "question": "Change to directory 'dir'"
+  },
+  {
+    "placeholder": "pwd",
+    "solution": "pwd",
+    "question": "Show current directory"
+  },
+  {
+    "placeholder": "mkdir dir",
+    "solution": "mkdir dir",
+    "question": "Make directory 'dir'"
+  },
+  {
+    "placeholder": "rm -r dir",
+    "solution": "rm -r dir",
+    "question": "Remove directory 'dir'"
+  },
+  {
+    "placeholder": "rm -rf dir",
+    "solution": "rm -rf dir",
+    "question": "Remove directory 'dir' (force)"
+  },
+  {
+    "placeholder": "cp -r dir1 dir2",
+    "solution": "cp -r dir1 dir2",
+    "question": "Copy 'dir1' to 'dir2'"
+  },
+  {
+    "placeholder": "rm file",
+    "solution": "rm file",
+    "question": "Remove 'file'"
+  },
+  {
+    "placeholder": "rm -f file",
+    "solution": "rm -f file",
+    "question": "Remove 'file' (force)"
+  },
+  {
+    "placeholder": "cp file1 file2",
+    "solution": "cp file1 file2",
+    "question": "Copy 'file1' to 'file2'"
+  },
+  {
+    "placeholder": "mv file1 file2",
+    "solution": "mv file1 file2",
+    "question": "Rename or move file1 to file2"
+  },
+  {
+    "placeholder": "ln -s file1 link1",
+    "solution": "ln -s file1 link1",
+    "question": "Create symbolic 'link1' to 'file1'"
+  },
+  {
+    "placeholder": "touch file",
+    "solution": "touch file",
+    "question": "Create or update 'file'"
+  },
+  {
+    "placeholder": "cat>file",
+    "solution": "cat>file",
+    "question": "Put standard output into 'file'"
+  },
+  {
+    "placeholder": "more file",
+    "solution": "more file",
+    "question": "Output file 'file'"
+  },
+  {
+    "placeholder": "head file",
+    "solution": "head file",
+    "question": "Output first 10 lines of 'file'"
+  },
+  {
+    "placeholder": "tail file",
+    "solution": "tail file",
+    "question": "Output last 10 lines of 'file'"
+  },
+  {
+    "placeholder": "grep pattern files",
+    "solution": "grep pattern files",
+    "question": "Search for 'pattern' in 'files'"
+  },
+  {
+    "placeholder": "grep -r pattern dir",
+    "solution": "grep -r pattern dir",
+    "question": "Search recursively for 'pattern' in dir"
+  },
+  {
+    "placeholder": "cmd | grep pattern",
+    "solution": "cmd | grep pattern",
+    "question": "Search for 'pattern' in output of cmd"
+  },
+  {
+    "placeholder": "ctrl+c",
+    "solution": "ctrl+c",
+    "question": "Halt current command"
+  },
+  {
+    "placeholder": "ctrl+z",
+    "solution": "ctrl+z",
+    "question": "Background current command"
+  },
+  {
+    "placeholder": "ctrl+d",
+    "solution": "ctrl+d",
+    "question": "Delete char infront of cursor or logout"
+  },
+  {
+    "placeholder": "ctrl+u",
+    "solution": "ctrl+u",
+    "question": "Erase line"
+  },
+  {
+    "placeholder": "ctrl+r",
+    "solution": "ctrl+r",
+    "question": "Search recent commands"
+  },
+  {
+    "placeholder": "ctrl+a",
+    "solution": "ctrl+a",
+    "question": "Move to beginning of line"
+  },
+  {
+    "placeholder": "ctrl+e",
+    "solution": "ctrl+e",
+    "question": "Move to end of line"
+  },
+  {
+    "placeholder": "ctrl+h",
+    "solution": "ctrl+h",
+    "question": "Delete char behind cursor (backspace)"
+  },
+  {
+    "solution": "UP",
+    "question": "Move to previous command"
+  },
+  {
+    "placeholder": "ps",
+    "solution": "ps",
+    "question": "Display your active processes"
+  },
+  {
+    "placeholder": "top",
+    "solution": "top",
+    "question": "Display all processes"
+  },
+  {
+    "placeholder": "kill 5",
+    "solution": "kill 5",
+    "question": "Terminate process id of 5"
+  },
+  {
+    "placeholder": "kill -9 5",
+    "solution": "kill -9 5",
+    "question": "Terminate (KILL) process id of 5"
+  },
+  {
+    "placeholder": "killall proc",
+    "solution": "killall proc",
+    "question": "Terminate all processes named 'proc'"
+  },
+  {
+    "placeholder": "bg",
+    "solution": "bg",
+    "question": "List background jobs"
+  },
+  {
+    "placeholder": "fg",
+    "solution": "fg",
+    "question": "Bring most recent job to foreground"
+  },
+  {
+    "placeholder": "!!",
+    "solution": "!!",
+    "question": "Repeat last command"
+  },
+  {
+    "placeholder": "sudo !!",
+    "solution": "sudo !!",
+    "question": "Repeat last command as root"
+  },
+  {
+    "placeholder": "UP",
+    "solution": "UP",
+    "question": "Move to previous command"
+  },
+  {
+    "placeholder": "DOWN",
+    "solution": "DOWN",
+    "question": "Move to next command"
+  },
+  {
+    "placeholder": "!3",
+    "solution": "!3",
+    "question": "Execute command 3 in history"
+  }
+]

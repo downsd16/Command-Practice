@@ -1,0 +1,114 @@
+[
+  {
+    "id": 2.0,
+    "topic": "Ports 1",
+    "placeholder": 22.0,
+    "solution": 22.0,
+    "question": "Secure Shell (SSH)",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Ports 1",
+    "placeholder": 23.0,
+    "solution": 23.0,
+    "question": "Telnet (TELNET)",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Ports 2",
+    "placeholder": 53.0,
+    "solution": 53.0,
+    "question": "Domain Name System (DNS)",
+    "level": 2.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Ports 2",
+    "placeholder": 67.0,
+    "solution": 67.0,
+    "question": "Client to server Dynamic Host Configuration Protocol v4 (DHCPv4)",
+    "level": 2.0
+  },
+  {
+    "id": 6.0,
+    "topic": "Ports 2",
+    "placeholder": 68.0,
+    "solution": 68.0,
+    "question": "Server to client Dynamic Host Configuration Protocol v4 (DHCPv4)",
+    "level": 2.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Ports 2",
+    "placeholder": 69.0,
+    "solution": 69.0,
+    "question": "Trivial File Transfer Protocol (TFTP)",
+    "level": 2.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Ports 3",
+    "placeholder": 110.0,
+    "solution": 110.0,
+    "question": "Post Office Protocol 3 (POP3)",
+    "level": 3.0
+  },
+  {
+    "id": 9.0,
+    "topic": "Ports 3",
+    "placeholder": 123.0,
+    "solution": 123.0,
+    "question": "Network Time Protocol (NTP)",
+    "level": 3.0
+  },
+  {
+    "id": 10.0,
+    "topic": "Ports 3",
+    "placeholder": 143.0,
+    "solution": 143.0,
+    "question": "Internet Message Access Protocol (IMAP)",
+    "level": 3.0
+  },
+  {
+    "id": 11.0,
+    "topic": "Ports 3",
+    "placeholder": 443.0,
+    "solution": 443.0,
+    "question": "Secure HTTP (HTTPS)",
+    "level": 3.0
+  },
+  {
+    "id": 12.0,
+    "topic": "Ports 3",
+    "placeholder": 546.0,
+    "solution": 546.0,
+    "question": "Client to server Dynamic Host Configuration Protocol v6 (DHCPv6)",
+    "level": 3.0
+  },
+  {
+    "id": 13.0,
+    "topic": "Ports 3",
+    "placeholder": 547.0,
+    "solution": 547.0,
+    "question": "Server to client Dynamic Host Configuration Protocol v6 (DHCPv6)",
+    "level": 3.0
+  },
+  {
+    "id": 0.0,
+    "topic": "Ports 1",
+    "placeholder": 20.0,
+    "solution": 20.0,
+    "question": "File Transfer Protocol - Data (FTP-DATA)",
+    "level": 1.0
+  },
+  {
+    "id": 1.0,
+    "topic": "Ports 1",
+    "placeholder": 21.0,
+    "solution": 21.0,
+    "question": "File Transfer Protocol - Control (FTP)",
+    "level": 1.0
+  }
+]

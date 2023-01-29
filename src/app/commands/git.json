@@ -1,0 +1,514 @@
+[
+  {
+    "id": 0.0,
+    "topic": "Basic",
+    "placeholder": "git init",
+    "solution": "git init",
+    "question": "Initialize a repository",
+    "level": 1.0
+  },
+  {
+    "id": 1.0,
+    "topic": "Basic",
+    "placeholder": "git status",
+    "solution": "git status",
+    "question": "Show status of working tree",
+    "level": 1.0
+  },
+  {
+    "id": 2.0,
+    "topic": "Basic",
+    "placeholder": "git add file.txt",
+    "solution": "git add file.txt",
+    "question": "Start tracking file.txt",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Basic",
+    "placeholder": "git add main.txt",
+    "solution": "git add main.txt",
+    "question": "Stage modified file main.txt",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Basic",
+    "placeholder": "git diff",
+    "solution": "git diff",
+    "question": "Show what's changed but not yet staged",
+    "level": 1.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Basic",
+    "placeholder": "git commit",
+    "solution": "git commit",
+    "question": "Commit changes",
+    "level": 1.0
+  },
+  {
+    "id": 6.0,
+    "topic": "Basic",
+    "placeholder": "git commit -a",
+    "solution": "git commit -a",
+    "question": "Stage files and commit",
+    "level": 1.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Basic",
+    "placeholder": "git mv main.txt file.txt",
+    "solution": "git mv main.txt file.txt",
+    "question": "Rename main.txt to file.txt",
+    "level": 1.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Basic",
+    "placeholder": "git fetch develop",
+    "solution": "git fetch develop",
+    "question": "Pull data from remote 'develop' without merging",
+    "level": 1.0
+  },
+  {
+    "id": 9.0,
+    "topic": "Basic",
+    "placeholder": "git pull origin develop",
+    "solution": "git pull origin develop",
+    "question": "Fetch and merge branch 'develop' from origin",
+    "level": 1.0
+  },
+  {
+    "id": 10.0,
+    "topic": "Branch",
+    "placeholder": "git branch",
+    "solution": "git branch",
+    "question": "Show current branches",
+    "level": 2.0
+  },
+  {
+    "id": 11.0,
+    "topic": "Branch",
+    "placeholder": "git push origin master",
+    "solution": "git push origin master",
+    "question": "Push master branch to origin server",
+    "level": 2.0
+  },
+  {
+    "id": 12.0,
+    "topic": "Branch",
+    "placeholder": "git branch -v",
+    "solution": "git branch -v",
+    "question": "Show last commit on all branches",
+    "level": 2.0
+  },
+  {
+    "id": 13.0,
+    "topic": "Branch",
+    "placeholder": "git checkout master",
+    "solution": "git checkout master",
+    "question": "Switch to branch 'master'",
+    "level": 2.0
+  },
+  {
+    "id": 14.0,
+    "topic": "Branch",
+    "placeholder": "git branch feature1",
+    "solution": "git branch feature1",
+    "question": "Create new branch called 'feature1'",
+    "level": 2.0
+  },
+  {
+    "id": 15.0,
+    "topic": "Branch",
+    "placeholder": "git checkout -b feature2",
+    "solution": "git checkout -b feature2",
+    "question": "Create branch 'feature2' and switch to it",
+    "level": 2.0
+  },
+  {
+    "id": 16.0,
+    "topic": "Branch",
+    "placeholder": "git branch -d mybranch",
+    "solution": "git branch -d mybranch",
+    "question": "Delete branch 'mybranch'",
+    "level": 2.0
+  },
+  {
+    "id": 17.0,
+    "topic": "Branch",
+    "placeholder": "git branch --merged",
+    "solution": "git branch --merged",
+    "question": "Show branches already merged into current branch",
+    "level": 2.0
+  },
+  {
+    "id": 18.0,
+    "topic": "Branch",
+    "placeholder": "git branch --no-merged",
+    "solution": "git branch --no-merged",
+    "question": "Show branches not yet merged into current branch",
+    "level": 2.0
+  },
+  {
+    "id": 19.0,
+    "topic": "Branch",
+    "placeholder": "git branch -D fix",
+    "solution": "git branch -D fix",
+    "question": "Force delete branch 'fix' that is not yet merged",
+    "level": 2.0
+  },
+  {
+    "id": 20.0,
+    "topic": "Branch",
+    "placeholder": "git push origin feature1",
+    "solution": "git push origin feature1",
+    "question": "Push local branch 'feature1' to origin",
+    "level": 2.0
+  },
+  {
+    "id": 21.0,
+    "topic": "Branch",
+    "placeholder": "git push staging develop:master",
+    "solution": "git push staging develop:master",
+    "question": "Push develop branch to remote staging master",
+    "level": 2.0
+  },
+  {
+    "id": 22.0,
+    "topic": "Branch",
+    "placeholder": "git checkout -b fix1 origin/fix1",
+    "solution": "git checkout -b fix1 origin/fix1",
+    "question": "Create local branch 'fix1' based off origin branch",
+    "level": 2.0
+  },
+  {
+    "id": 23.0,
+    "topic": "Branch",
+    "placeholder": "git checkout --track origin/fix2",
+    "solution": "git checkout --track origin/fix2",
+    "question": "Create tracking branch 'fix2' based off origin",
+    "level": 2.0
+  },
+  {
+    "id": 24.0,
+    "topic": "Merge",
+    "placeholder": "git mergetool",
+    "solution": "git mergetool",
+    "question": "Use graphical merge tool",
+    "level": 3.0
+  },
+  {
+    "id": 25.0,
+    "topic": "Merge",
+    "placeholder": "git commit",
+    "solution": "git commit",
+    "question": "Finalize merge after resolving conflicts",
+    "level": 3.0
+  },
+  {
+    "id": 26.0,
+    "topic": "Merge",
+    "placeholder": "git merge feature1",
+    "solution": "git merge feature1",
+    "question": "Merge branch 'feature1' with current branch",
+    "level": 3.0
+  },
+  {
+    "id": 27.0,
+    "topic": "Merge",
+    "placeholder": "git add file.txt",
+    "solution": "git add file.txt",
+    "question": "Mark file.txt as resolved after merge",
+    "level": 3.0
+  },
+  {
+    "id": 28.0,
+    "topic": "Merge",
+    "placeholder": "git rebase develop",
+    "solution": "git rebase develop",
+    "question": "Rebase changes made on current branch over develop",
+    "level": 3.0
+  },
+  {
+    "id": 29.0,
+    "topic": "Merge",
+    "placeholder": "git rebase master develop",
+    "solution": "git rebase master develop",
+    "question": "Rebase master onto develop without checking it out",
+    "level": 3.0
+  },
+  {
+    "id": 30.0,
+    "topic": "Remote",
+    "placeholder": "git remote",
+    "solution": "git remote",
+    "question": "Show remote servers you have configured",
+    "level": 4.0
+  },
+  {
+    "id": 31.0,
+    "topic": "Remote",
+    "placeholder": "git remote -v",
+    "solution": "git remote -v",
+    "question": "Show remote servers with URL displayed",
+    "level": 4.0
+  },
+  {
+    "id": 32.0,
+    "topic": "Remote",
+    "placeholder": "git remote add myurl url",
+    "solution": "git remote add myurl url",
+    "question": "Add remote server 'url' with shortname 'myurl'",
+    "level": 4.0
+  },
+  {
+    "id": 33.0,
+    "topic": "Remote",
+    "placeholder": "git remote rename server1 server2",
+    "solution": "git remote rename server1 server2",
+    "question": "Rename remote 'server1' to 'server2'",
+    "level": 4.0
+  },
+  {
+    "id": 34.0,
+    "topic": "Remote",
+    "placeholder": "git remote rm server1",
+    "solution": "git remote rm server1",
+    "question": "Remove remote 'server1'",
+    "level": 4.0
+  },
+  {
+    "id": 35.0,
+    "topic": "Logs",
+    "placeholder": "git log",
+    "solution": "git log",
+    "question": "Show commit logs",
+    "level": 5.0
+  },
+  {
+    "id": 36.0,
+    "topic": "Logs",
+    "placeholder": "git log -p -2",
+    "solution": "git log -p -2",
+    "question": "Show last two commits with diffs",
+    "level": 5.0
+  },
+  {
+    "id": 37.0,
+    "topic": "Logs",
+    "placeholder": "git log --stat",
+    "solution": "git log --stat",
+    "question": "Show commit logs with stats",
+    "level": 5.0
+  },
+  {
+    "id": 38.0,
+    "topic": "Logs",
+    "placeholder": "git log --pretty=oneline",
+    "solution": "git log --pretty=oneline",
+    "question": "Show commit logs one per line",
+    "level": 5.0
+  },
+  {
+    "id": 39.0,
+    "topic": "Logs",
+    "placeholder": "git log --graph",
+    "solution": "git log --graph",
+    "question": "Show commit logs with ascii graph",
+    "level": 5.0
+  },
+  {
+    "id": 40.0,
+    "topic": "Logs",
+    "placeholder": "git log --since=1.week",
+    "solution": "git log --since=1.week",
+    "question": "Show commit log for the last week",
+    "level": 5.0
+  },
+  {
+    "id": 41.0,
+    "topic": "Undo",
+    "placeholder": "git rm --cached main.txt",
+    "solution": "git rm --cached main.txt",
+    "question": "Remove main.txt from staging but keep in working",
+    "level": 6.0
+  },
+  {
+    "id": 42.0,
+    "topic": "Undo",
+    "placeholder": "git commit --amend",
+    "solution": "git commit --amend",
+    "question": "Replace last commit with whats in staging",
+    "level": 6.0
+  },
+  {
+    "id": 43.0,
+    "topic": "Undo",
+    "placeholder": "git checkout -- file.txt",
+    "solution": "git checkout -- file.txt",
+    "question": "Discard changes to file.txt",
+    "level": 6.0
+  },
+  {
+    "id": 44.0,
+    "topic": "Undo",
+    "placeholder": "git reset HEAD file.txt",
+    "solution": "git reset HEAD file.txt",
+    "question": "Unstage file.txt",
+    "level": 6.0
+  },
+  {
+    "id": 45.0,
+    "topic": "Undo",
+    "placeholder": "git commit --amend",
+    "solution": "git commit --amend",
+    "question": "Modify last commit message",
+    "level": 6.0
+  },
+  {
+    "id": 46.0,
+    "topic": "Tags",
+    "placeholder": "git tag",
+    "solution": "git tag",
+    "question": "Show available tags",
+    "level": 7.0
+  },
+  {
+    "id": 47.0,
+    "topic": "Tags",
+    "placeholder": "git tag -a v3.0",
+    "solution": "git tag -a v3.0",
+    "question": "Create annotated tag 'v3.0'",
+    "level": 7.0
+  },
+  {
+    "id": 48.0,
+    "topic": "Tags",
+    "placeholder": "git show v3.0",
+    "solution": "git show v3.0",
+    "question": "Show info for tag v3.0",
+    "level": 7.0
+  },
+  {
+    "id": 49.0,
+    "topic": "Tags",
+    "placeholder": "git tag -s v3.0",
+    "solution": "git tag -s v3.0",
+    "question": "Create signed tag v3.0",
+    "level": 7.0
+  },
+  {
+    "id": 50.0,
+    "topic": "Tags",
+    "placeholder": "git tag v2.1-lw",
+    "solution": "git tag v2.1-lw",
+    "question": "Create lightweight tag v2.1",
+    "level": 7.0
+  },
+  {
+    "id": 51.0,
+    "topic": "Tags",
+    "placeholder": "git tag -v v3.0",
+    "solution": "git tag -v v3.0",
+    "question": "Verify signed tag v3.0",
+    "level": 7.0
+  },
+  {
+    "id": 52.0,
+    "topic": "Tags",
+    "placeholder": "git tag -a v2.2 8feb",
+    "solution": "git tag -a v2.2 8feb",
+    "question": "Tag previous commit '8feb' as v2.2",
+    "level": 7.0
+  },
+  {
+    "id": 53.0,
+    "topic": "Tags",
+    "placeholder": "git push origin v2.2",
+    "solution": "git push origin v2.2",
+    "question": "Push tag v2.2 to origin",
+    "level": 7.0
+  },
+  {
+    "id": 54.0,
+    "topic": "Stashes",
+    "placeholder": "git stash",
+    "solution": "git stash",
+    "question": "Stash changes without committing",
+    "level": 8.0
+  },
+  {
+    "id": 55.0,
+    "topic": "Stashes",
+    "placeholder": "git stash list",
+    "solution": "git stash list",
+    "question": "Show stores stashes",
+    "level": 8.0
+  },
+  {
+    "id": 56.0,
+    "topic": "Stashes",
+    "placeholder": "git stash apply",
+    "solution": "git stash apply",
+    "question": "Reapply most recent stash",
+    "level": 8.0
+  },
+  {
+    "id": 57.0,
+    "topic": "Stashes",
+    "placeholder": "git stash apply stash@2",
+    "solution": "git stash apply stash@2",
+    "question": "Reapply stash 2",
+    "level": 8.0
+  },
+  {
+    "id": 58.0,
+    "topic": "Stashes",
+    "placeholder": "git stash apply --index",
+    "solution": "git stash apply --index",
+    "question": "Reapply stashed changes along with staged changes",
+    "level": 8.0
+  },
+  {
+    "id": 59.0,
+    "topic": "Stashes",
+    "placeholder": "git stash drop stash@{2}",
+    "solution": "git stash drop stash@{2}",
+    "question": "Drop stash 2",
+    "level": 8.0
+  },
+  {
+    "id": 60.0,
+    "topic": "Stashes",
+    "placeholder": "git stash pop",
+    "solution": "git stash pop",
+    "question": "Apply most recent stash and drop from stack",
+    "level": 8.0
+  },
+  {
+    "id": 61.0,
+    "topic": "Stashes",
+    "placeholder": "git stash branch mybranch",
+    "solution": "git stash branch mybranch",
+    "question": "Create branch 'mybranch' from stash",
+    "level": 8.0
+  },
+  {
+    "id": 62.0,
+    "topic": "Stashes",
+    "placeholder": "git stash clear",
+    "solution": "git stash clear",
+    "question": "Delete all stashes",
+    "level": 8.0
+  },
+  {
+    "id": 63.0,
+    "topic": "Stashes",
+    "placeholder": "git diff --staged",
+    "solution": "git diff --staged",
+    "question": "Show what's staged but not yet committed",
+    "level": 8.0
+  }
+]

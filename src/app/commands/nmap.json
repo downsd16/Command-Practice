@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1.0,
+    "topic": "Scan target",
+    "placeholder": "nmap ip1,ip2",
+    "solution": "nmap ip1,ip2",
+    "question": "Scan a multiple IPs",
+    "level": 1.0
+  },
+  {
+    "id": 2.0,
+    "topic": "Scan target",
+    "placeholder": "nmap url",
+    "solution": "nmap url",
+    "question": "Scan a Host",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Scan target",
+    "placeholder": "nmap 192.168.1.0-255",
+    "solution": "nmap 192.168.1.0-255",
+    "question": "Scan a range of IPs (192.168.1.0-255)",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Scan target",
+    "placeholder": "nmap 192.168.0.*",
+    "solution": "nmap 192.168.0.*",
+    "question": "Scan using wildcard (192.168.0.)",
+    "level": 1.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Scan target",
+    "placeholder": "nmap 192.168.0.1/24",
+    "solution": "nmap 192.168.0.1/24",
+    "question": "Scan a subnet (192.168.0.1)",
+    "level": 1.0
+  },
+  {
+    "id": 6.0,
+    "topic": "Target ports",
+    "placeholder": "nmap -p 22 ip",
+    "solution": "nmap -p 22 ip",
+    "question": "Scan a single port (22)",
+    "level": 2.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Target ports",
+    "placeholder": "nmap -p 100-500 ip",
+    "solution": "nmap -p 100-500 ip",
+    "question": "Scan a range of ports (100,500)",
+    "level": 2.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Target ports",
+    "placeholder": "nmap -p 23,443 ip",
+    "solution": "nmap -p 23,443 ip",
+    "question": "Scan multiple ports (23,443)",
+    "level": 2.0
+  },
+  {
+    "id": 9.0,
+    "topic": "Target ports",
+    "placeholder": "nmap -F ip",
+    "solution": "nmap -F ip",
+    "question": "scan 100 most popular ports",
+    "level": 2.0
+  },
+  {
+    "id": 10.0,
+    "topic": "Scan options",
+    "placeholder": "nmap -sS ip",
+    "solution": "nmap -sS ip",
+    "question": "Syn Scan",
+    "level": 3.0
+  },
+  {
+    "id": 11.0,
+    "topic": "Scan options",
+    "placeholder": "nmap -sT ip",
+    "solution": "nmap -sT ip",
+    "question": "TCP Connect Scan",
+    "level": 3.0
+  },
+  {
+    "id": 12.0,
+    "topic": "Scan options",
+    "placeholder": "nmap -sU ip",
+    "solution": "nmap -sU ip",
+    "question": "UDP Scan",
+    "level": 3.0
+  },
+  {
+    "id": 13.0,
+    "topic": "Scan options",
+    "placeholder": "nmap -sV ip",
+    "solution": "nmap -sV ip",
+    "question": "Version Scan",
+    "level": 3.0
+  },
+  {
+    "id": 14.0,
+    "topic": "Aggregate",
+    "placeholder": "nmap -T0 ip",
+    "solution": "nmap -T0 ip",
+    "question": "Very Slow, used for evasion from network administrator",
+    "level": 4.0
+  },
+  {
+    "id": 15.0,
+    "topic": "Aggregate",
+    "placeholder": "nmap -T1 ip",
+    "solution": "nmap -T1 ip",
+    "question": "Quite Slow, used for evasion from network administrator",
+    "level": 4.0
+  },
+  {
+    "id": 16.0,
+    "topic": "Aggregate",
+    "placeholder": "nmap -T2 ip",
+    "solution": "nmap -T2 ip",
+    "question": "Polite, use less bandwidth",
+    "level": 4.0
+  },
+  {
+    "id": 17.0,
+    "topic": "Aggregate",
+    "placeholder": "nmap -T3 ip",
+    "solution": "nmap -T3 ip",
+    "question": "Normal: Default",
+    "level": 4.0
+  },
+  {
+    "id": 18.0,
+    "topic": "Aggregate",
+    "placeholder": "nmap -T4 ip",
+    "solution": "nmap -T4 ip",
+    "question": "Aggressive: fast",
+    "level": 4.0
+  },
+  {
+    "id": 19.0,
+    "topic": "Misc Options",
+    "placeholder": "nmap -6 ip",
+    "solution": "nmap -6 ip",
+    "question": "Use IPv6",
+    "level": 5.0
+  },
+  {
+    "id": 0.0,
+    "topic": "Scan target",
+    "placeholder": "nmap ip",
+    "solution": "nmap ip",
+    "question": "Scan a Single IP",
+    "level": 1.0
+  }
+]

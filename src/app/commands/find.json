@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1.0,
+    "topic": "Basics",
+    "placeholder": "find . -type f",
+    "solution": "find . -type f",
+    "question": "List all files under the current directory",
+    "level": 1.0
+  },
+  {
+    "id": 2.0,
+    "topic": "Basics",
+    "placeholder": "find . -type d",
+    "solution": "find . -type d",
+    "question": "List all directories under the current directory",
+    "level": 1.0
+  },
+  {
+    "id": 4.0,
+    "topic": "Basics",
+    "placeholder": "find . -name file.txt",
+    "solution": "find . -name file.txt",
+    "question": "Find file file.txt",
+    "level": 1.0
+  },
+  {
+    "id": 5.0,
+    "topic": "Basics",
+    "placeholder": "find . -name *.js -type f",
+    "solution": "find . -name *.js -type f",
+    "question": "Find javascript files in current directory",
+    "level": 1.0
+  },
+  {
+    "id": 7.0,
+    "topic": "Basics",
+    "placeholder": "find . -name file.txt",
+    "solution": "find . -name file.txt",
+    "question": "Current and all nested folders for file.txt",
+    "level": 1.0
+  },
+  {
+    "id": 8.0,
+    "topic": "Basics",
+    "placeholder": "find / -type f -name file.txt",
+    "solution": "find / -type f -name file.txt",
+    "question": "The entire file system for file.txt",
+    "level": 1.0
+  },
+  {
+    "id": 9.0,
+    "topic": "File by size",
+    "placeholder": "find . -type f -empty",
+    "solution": "find . -type f -empty",
+    "question": "Find empty files",
+    "level": 2.0
+  },
+  {
+    "id": 10.0,
+    "topic": "File by size",
+    "placeholder": "find . -type f -size +100M",
+    "solution": "find . -type f -size +100M",
+    "question": "Find files larger than 100Mb",
+    "level": 2.0
+  },
+  {
+    "id": 11.0,
+    "topic": "File by size",
+    "placeholder": "find . -type f -size +4G",
+    "solution": "find . -type f -size +4G",
+    "question": "Find files larger than 4G",
+    "level": 2.0
+  },
+  {
+    "id": 12.0,
+    "topic": "File by size",
+    "placeholder": "find -size +30M -size -40M",
+    "solution": "find -size +30M -size -40M",
+    "question": "Find files between 30MB and 40MB",
+    "level": 2.0
+  },
+  {
+    "id": 13.0,
+    "topic": "File by size",
+    "placeholder": "find -size 30M",
+    "solution": "find -size 30M",
+    "question": "Find files of 30MB",
+    "level": 2.0
+  },
+  {
+    "id": 14.0,
+    "topic": "File by size",
+    "placeholder": "find . -type f -size -4M",
+    "solution": "find . -type f -size -4M",
+    "question": "Find files smaller than 4MB",
+    "level": 2.0
+  },
+  {
+    "id": 15.0,
+    "topic": "Time",
+    "placeholder": "-atime 0",
+    "solution": "-atime 0",
+    "question": "Last accessed between now and 24 hours ago",
+    "level": 3.0
+  },
+  {
+    "id": 16.0,
+    "topic": "Time",
+    "placeholder": "-atime +",
+    "solution": "-atime +",
+    "question": "Accessed more than 24 hours ago",
+    "level": 3.0
+  },
+  {
+    "id": 17.0,
+    "topic": "Time",
+    "placeholder": "-atime 1",
+    "solution": "-atime 1",
+    "question": "Accessed between 24 and 48 hours ago",
+    "level": 3.0
+  },
+  {
+    "id": 18.0,
+    "topic": "Time",
+    "placeholder": "-atime +",
+    "solution": "-atime +",
+    "question": "Accessed more than 48 hours ago",
+    "level": 3.0
+  },
+  {
+    "id": 19.0,
+    "topic": "Time",
+    "placeholder": "-atime -",
+    "solution": "-atime -",
+    "question": "Accessed less than 24 hours ago (same a 0)",
+    "level": 3.0
+  },
+  {
+    "id": 20.0,
+    "topic": "Time",
+    "placeholder": "-ctime -",
+    "solution": "-ctime -",
+    "question": "File status changed within the last 6 hours and 30 minutes",
+    "level": 3.0
+  },
+  {
+    "id": 0.0,
+    "topic": "Basics",
+    "placeholder": "find .",
+    "solution": "find .",
+    "question": "List all sub directory/file in the current directory",
+    "level": 1.0
+  },
+  {
+    "id": 3.0,
+    "topic": "Basics",
+    "placeholder": "find . -name *.py -type f",
+    "solution": "find . -name *.py -type f",
+    "question": "Find all python (.py) files under the current directory",
+    "level": 1.0
+  }
+]
