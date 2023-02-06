@@ -46,12 +46,14 @@ export class AppComponent implements OnInit {
     
     if (this.userInput.toLowerCase() === this.solution.toLowerCase()) {
       this.isCorrect = true;
+      this.streak++
       this.nextCommand();
     } else {
       if (this.solution.toLowerCase().startsWith(this.userInput.toLowerCase())) {
         this.isCorrect = true;
       } else {
-        this.isCorrect = false;
+        this.streak = 0
+        this.isCorrect = false
       }
     }
   }
@@ -73,6 +75,7 @@ export class AppComponent implements OnInit {
   }
 
   togglePlaceholder() {
+    this.streak = 0;
     this.placeholder = this.showSolution ? this.solution : '';
   }
 
