@@ -3,10 +3,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Hire-Downs.dev Personal Website</h3>
+  <h3 align="center">Command Practice Tool w/ Leaderboard</h3>
 
   <p align="center">
-    A simple frontend to act as my <a href="https://hire-downs.dev"><strong>personal portfolio</strong></a> displaying my experience, education, and projects.
+    A simple frontend for a 'flash-card' esque command practice tool used to memorize Azure, Linux, Powershell, and various other commands.
     <br />
     <br />
   </p>
@@ -31,16 +31,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This portfolio was made with Angular, Bootstrap and Tailwindcss. 
+This practice tool was made using Angular, TailWindCSS, and features to aid learning (show answer, command randomization, etc.). Users who visit the website are able to upload a maximum streak from a session (streak being number of commands completed without a single typing mistake).
 
 Features:
-- Asynchronous API calls for content loading
-    - See <a href="https://github.com/downsd16/hire-downs-api/tree/main"><strong>hire-downs-api</strong></a> for details on API
-- Dynamic content loading (supports 1-N project/education/experience elements)
-- Dynamic skill/category filtering for projects
-    - Automatically reads filter array from API
-- GitHub Pages CI/CD to automatically deploy changes
-- Custom SSL/TLS domain w/ certificate
+
+- Dynamic user input validation
+- A <a href="https://github.com/downsd16/Command-Practice-API">leaderboard</a> that supports caching and 
+- Custom JSON files for command prompts and answers
+- Intuitive indicator for users when command is incorrect (even if partially typed)
+- Simplified use interface designed after an Apple terminal
+- Multiple categories of commands (Linux, Azure PS, Azure CLI, Ubuntu, Networking, etc.) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/downsd16/hire-downs.dev.git
+   git clone https://github.com/downsd16/command-practice.git
    ```
 3. Install Packages
    ```sh
@@ -78,7 +78,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Feel free to fork this repository and create your own portfolio! For a low-code solution to the content API, see <a href="https://sanity.io">Sanity.io</a>. However, if you are looking a challenge/learn Azure microservices, the Azure Function API repository is linked at the top of this README, please feel free to implement that solution as well.
+This tool is meant as a study aid for the AZ-204 exam, and for learning Azure. While memorization is important, understanding the concepts behind the commands is also important. Consider this a supplement for testing preparation and not an alternative to good ol' fashioned labs and projects! Feel free to fork this repository and customize your own practice tool.
 
 All styles are implemented using TailWindCSS, Bootstrap, and the Angular Material Library. If you experience webpack issues, consider alternatives to Angular Material.
 
@@ -92,11 +92,10 @@ All styles are implemented using TailWindCSS, Bootstrap, and the Angular Materia
 Some improvements I would make:
 
 - Mobile accessibility/general performance improvements
-- Routing/AA for session specific experiences
-- Azure Static Web App deployment
-    - Use with hire-downs-api to disable anonymous calls
-    - Enable application insights for traffic/scaling
-    - App Configuration for environment variables/API key
+- Command scrolling/history UI component
+- User B2C authentication to allow users to sign in with third party
+- Authenticate new user streaks/high scores using B2C token
+    - Instead of prompting users for username/ID, we use email/B2C token field
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +104,6 @@ Some improvements I would make:
 <!-- CONTACT -->
 ## Contact
 
-- Devin Downs Email - downsd16@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/devindowns5/)
 - [Personal Website](https://hire-downs.dev)
 - [Project Link](https://github.com/downsd16/hire-downs.dev)
