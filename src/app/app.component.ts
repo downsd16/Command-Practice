@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { finalize, Observable } from 'rxjs';
+import { LeaderboardService } from './services/leaderboard.service';
+import { ScoreItem } from './services/ScoreItem';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+
   commands: any[] = []
-  leaderboard: any[] = []
+  boardResponse$!: Observable<ScoreItem[]>
+  loadingScores = false
   tempRand = 0
   currentIndex = 0
   lastIndex = 0
@@ -21,11 +25,11 @@ export class AppComponent implements OnInit {
   showSolution = false
   selectedCategory = 'azure'
 
-  constructor() {}
+  constructor(private board: LeaderboardService) {}
 
-  ngOnInit() {
-    this.loadCommands();
-    
+  async ngOnInit() {
+    this.loadCommands()
+    this.loadLeaderboard()
   }
 
   loadCommands() {
@@ -39,6 +43,10 @@ export class AppComponent implements OnInit {
     this.solution = this.commands[this.currentIndex].solution;
   }
 
+  loadLeaderboard() {
+    this.boardResponse$ = this.board.getLeaderboard()
+  }
+
   compareInput() {
     if(this.userInput.length === 0) {
       this.isCorrect = true
@@ -47,12 +55,14 @@ export class AppComponent implements OnInit {
     
     if (this.userInput.toLowerCase() === this.solution.toLowerCase()) {
       this.isCorrect = true;
+      this.streak++
       this.nextCommand();
     } else {
       if (this.solution.toLowerCase().startsWith(this.userInput.toLowerCase())) {
         this.isCorrect = true;
       } else {
-        this.isCorrect = false;
+        this.streak = 0
+        this.isCorrect = false
       }
     }
   }
@@ -74,6 +84,7 @@ export class AppComponent implements OnInit {
   }
 
   togglePlaceholder() {
+    this.streak = 0;
     this.placeholder = this.showSolution ? this.solution : '';
   }
 
