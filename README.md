@@ -36,7 +36,8 @@ This practice tool was made using Angular, TailWindCSS, and features to aid lear
 Features:
 
 - Dynamic user input validation
-- A <a href="https://github.com/downsd16/Command-Practice-API">leaderboard</a> that supports caching and 
+- A <a href="https://github.com/downsd16/Command-Practice-API">leaderboard</a> that supports caching
+- Observables for asynchronous leaderboard loading indicators 
 - Custom JSON files for command prompts and answers
 - Intuitive indicator for users when command is incorrect (even if partially typed)
 - Simplified use interface designed after an Apple terminal
